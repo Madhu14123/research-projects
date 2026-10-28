@@ -1,6 +1,6 @@
 # Research Projects
 
-Five research projects by Madhurya, curated from existing local code and saved results.
+Six research and programming projects by Madhurya, curated from existing local code and saved results.
 
 | Folder | Project |
 | --- | --- |
@@ -9,8 +9,9 @@ Five research projects by Madhurya, curated from existing local code and saved r
 | [msme-model-comparison](msme-model-comparison/) | MSME preprocessing, model comparisons, knowledge graphs and query models |
 | [energy-price-forecasting](energy-price-forecasting/) | Electricity-price modelling with SARIMA, LightGBM and ADWIN drift exploration |
 | [dss-crypto-forecasting](dss-crypto-forecasting/) | Cryptocurrency forecasting with six models and a Streamlit decision-support dashboard |
+| [majorpro4-text-to-sql](majorpro4-text-to-sql/) | Local-model CSV question answering with reviewable SQL and a Streamlit interface |
 
-Each project includes a guide describing entry points, dependencies, saved evidence and known limitations. Source scripts retain their original filenames and behaviour. This is a curated research archive, not a claim that every experiment is a final validated model.
+Each project includes a guide describing entry points, dependencies, saved evidence and known limitations. Archived source scripts generally retain their original filenames and behaviour; documented revisions are identified in the individual project guides. This is a curated research archive, not a claim that every experiment is a final validated model.
 
 ## Data and credentials
 

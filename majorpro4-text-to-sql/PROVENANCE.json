@@ -1,0 +1,24 @@
+{
+  "original_project": "D:/majorpro4",
+  "revision": "Consolidated T5/Llama Streamlit CSV-to-SQL application with schema-derived prompts and bounded read-only querying.",
+  "source_files": [
+    {
+      "name": "app7.py",
+      "sha256": "072af97ffe8aec31dc49015020b570198cae8270a8c98f63306f0d9ba1072940"
+    },
+    {
+      "name": "app5.py",
+      "sha256": "a8c4418b30f03ad5e4b35e3e46a6c2e04fba5567df980fb57ce2321058343e95"
+    },
+    {
+      "name": "app4.py",
+      "sha256": "0ef7b27012fa9e3438b875c7fdc72c2ce4874c3ee0e8414f49812d1af9f2bdd8"
+    },
+    {
+      "name": "acc.py",
+      "sha256": "26cd706ce7146a2c65bf412c1456a89d9df00e8c4039bb67a439e3f0bbd9c8e5"
+    }
+  ],
+  "included_data": "Synthetic demonstration rows only; original survey records excluded.",
+  "original_sources_modified": false
+}

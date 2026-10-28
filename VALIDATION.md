@@ -16,3 +16,7 @@ The energy notebook source (27 code cells, excluding its shell-install line) and
 ## DSS project addition
 
 Nine Python source files passed syntax checks. Six historical prediction tables were parsed and checked for finite numeric values; RMSE, MAE and R2 were recalculated from all saved predictions. No credential patterns were detected in the selected files. Full training and the live dashboard were not run. See the DSS README for scaling and evaluation-alignment limitations.
+
+## majorpro4 revision
+
+The revised CSV-to-SQL app passed 16 unit tests and a Streamlit AppTest smoke check covering startup, a demo aggregate, rejected mutation and intact data. Live model inference and a fresh dependency installation were not performed. Original credential-bearing variants, databases and survey records were excluded; synthetic demo data is included.
