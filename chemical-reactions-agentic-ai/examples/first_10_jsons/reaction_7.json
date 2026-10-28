@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "6",
+  "Reaction type": "9",
+  "Procedure details": "procedure_details: \" 3-(2-chloropyridin-4-yloxy)-2,6-dimethylpyridine (2 g, 8.52 mmol), Sulfanilamide (1.91 g, 11.09 mmol), CESIUM CARBONATE (4.17 g, 12.80 mmol) and XANTPHOS (490 mg, 0.85 mmol) were stirred in DMA (40 ml). Purged this stirred mixture by bubbling nitrogen through for an hour, then added the Palladium acetate. Heated to 130\u00baC in a metal block (block at 150\u00baC) and held at this temperature for 3 hours. LCMS (monitorbase) then showed DP as MH+ = 370.99 and MH- = 369.03 at 1.83 minutes, 83%. Allowed to cool to room temperature. The reaction mixture was evaporated to dryness at 50\u00baC giving a light-green solid residue.  Attempted to partition this residue between DCM (~50 ml) and saturated aqueous sodium hydrogen carbonate (~50 ml). The insoluble matter was filtered off and washed through with water, then DCM. This dirty-yellow solid was dried by desiccation overnight. Wt = 2.04 g. LCMS showed it to be DP, 94%.  This material was crystallised from acetonitrile; dissolved up in ~150 ml boiling acetonitrile and the cloudy solution treated with a little Norit SX4 decolourising carbon. Filtered hot through a fluted paper. Slow crystallisation of a creamy-white solid occurred on cooling to room temperature. Cooled in ice/water then the bulky solid was collected by filtration and washed with chilled acetonitrile. Dried by desiccation under high vacuum at room temperature overnight. This afforded 1.29 g creamy-white bulky solid [A].  LCMS (monitorbase) then showed DP as MH+ = 370.99 and MH- = 369.03 at 1.83 minutes, 99%.  \"\n",
+  "Temperature": "130 CELSIUS",
+  "Reactant smiles": "C1=CC(=CC=C1N)S(=O)(=O)N",
+  "Reactant value": "0.0111 MOLE",
+  "Reagent smiles": "CC(=O)N(C)C",
+  "Reagent value": "0.000847 MOLE",
+  "Solvent smiles": "CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C",
+  "Solvent values": "0.000847 MOLE",
+  "Catalyst smiles": "CC(=O)O.CC(=O)O.[Pd]",
+  "Catalyst value": "0.000579 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

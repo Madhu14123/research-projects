@@ -1,0 +1,258 @@
+{
+  "graph_name": "MSME Knowledge Graph",
+  "version": "2.0",
+  "purpose": "Support GraphRAG, policy analysis, cluster discovery, worker welfare planning, and supply-chain intelligence for MSMEs.",
+  "design_principles": [
+    "Every entity should have a stable identifier.",
+    "Relationships should be typed, directional, and explainable.",
+    "Derived features such as risk, profile, and cluster membership should be explicit nodes or edges.",
+    "The schema should support both tabular analytics and multi-hop reasoning.",
+    "It should be easy for an LLM to interpret and retrieve context from natural language questions."
+  ],
+  "shared_properties": {
+    "Entity": [
+      "id",
+      "name",
+      "source",
+      "confidence",
+      "created_at"
+    ],
+    "Relationship": [
+      "confidence",
+      "evidence_source",
+      "weight",
+      "observed_at"
+    ]
+  },
+  "node_types": {
+    "MSME": {
+      "description": "A business unit or enterprise.",
+      "key_properties": ["SL", "UNIT_NAME"],
+      "properties": {
+        "SL": "integer",
+        "UNIT_NAME": "string",
+        "investment": "float",
+        "employment": "integer",
+        "turnover": "float",
+        "latitude": "float",
+        "longitude": "float",
+        "risk_score": "float",
+        "ROI_ratio": "float",
+        "revenue_per_employee": "float",
+        "employees_per_lakh_investment": "float",
+        "female_percentage": "float",
+        "zero_employment_flag": "boolean",
+        "zero_turnover_flag": "boolean",
+        "is_women_led": "boolean",
+        "is_odop_participant": "boolean",
+        "is_in_industrial_estate": "boolean",
+        "turnover_missing_flag": "boolean",
+        "outlier_flag": "boolean",
+        "pcb_category_risk": "integer"
+      }
+    },
+    "District": {
+      "description": "Administrative district.",
+      "key_properties": ["DISTRICT_NAME"],
+      "properties": {
+        "DISTRICT_NAME": "string",
+        "district_risk_index": "float",
+        "district_enterprise_count": "integer"
+      }
+    },
+    "Mandal": {
+      "description": "Sub-region within a district.",
+      "key_properties": ["DISTRICT_NAME", "mandal_name"],
+      "properties": {
+        "mandal_name": "string",
+        "mandal_enterprise_count": "integer"
+      }
+    },
+    "IndustryCategory": {
+      "description": "Industry or product category.",
+      "key_properties": ["CATEGOERY_NAME"],
+      "properties": {
+        "CATEGOERY_NAME": "string",
+        "category_avg_investment": "float",
+        "category_avg_turnover": "float"
+      }
+    },
+    "IndustrialPark": {
+      "description": "Industrial estate or park.",
+      "key_properties": ["industrial_park"],
+      "properties": {
+        "industrial_park": "string"
+      }
+    },
+    "ComplianceStatus": {
+      "description": "Compliance or PCB-related status.",
+      "key_properties": ["PCBCATEGORY"],
+      "properties": {
+        "PCBCATEGORY": "string",
+        "compliance_risk_level": "string"
+      }
+    },
+    "RiskBucket": {
+      "description": "Derived risk class such as low/medium/high.",
+      "key_properties": ["risk_bucket"],
+      "properties": {
+        "risk_bucket": "string"
+      }
+    },
+    "FinancialProfile": {
+      "description": "Derived financial profile.",
+      "key_properties": ["profile_name"],
+      "properties": {
+        "profile_name": "string",
+        "avg_investment": "float",
+        "avg_turnover": "float",
+        "avg_roi": "float"
+      }
+    },
+    "OperationalProfile": {
+      "description": "Derived operational profile.",
+      "key_properties": ["profile_name"],
+      "properties": {
+        "profile_name": "string",
+        "zero_employment_flag": "boolean",
+        "zero_turnover_flag": "boolean"
+      }
+    },
+    "OwnershipProfile": {
+      "description": "Derived ownership / leadership profile.",
+      "key_properties": ["pattern_name"],
+      "properties": {
+        "pattern_name": "string"
+      }
+    },
+    "WorkforceProfile": {
+      "description": "Derived workforce and employment profile.",
+      "key_properties": ["profile_name"],
+      "properties": {
+        "profile_name": "string",
+        "employment_intensity": "float"
+      }
+    },
+    "Cluster": {
+      "description": "Geospatial or sectoral business cluster.",
+      "key_properties": ["cluster_id"],
+      "properties": {
+        "cluster_id": "integer",
+        "cluster_type": "string",
+        "cluster_center_lat": "float",
+        "cluster_center_lon": "float"
+      }
+    },
+    "PolicyProgram": {
+      "description": "Government or support program.",
+      "key_properties": ["program_name"],
+      "properties": {
+        "program_name": "string",
+        "program_type": "string",
+        "target_group": "string"
+      }
+    },
+    "SupportNeed": {
+      "description": "Support need inferred from enterprise conditions.",
+      "key_properties": ["need_name"],
+      "properties": {
+        "need_name": "string",
+        "need_type": "string"
+      }
+    }
+  },
+  "edge_types": {
+    "LOCATED_IN": {
+      "from": "MSME",
+      "to": "District",
+      "description": "MSME is situated in a district."
+    },
+    "OPERATES_IN": {
+      "from": "MSME",
+      "to": "Mandal",
+      "description": "MSME operates in a mandal."
+    },
+    "BELONGS_TO_CATEGORY": {
+      "from": "MSME",
+      "to": "IndustryCategory",
+      "description": "MSME belongs to a industry or product category."
+    },
+    "LOCATED_IN_PARK": {
+      "from": "MSME",
+      "to": "IndustrialPark",
+      "description": "MSME is located in an industrial park or estate."
+    },
+    "HAS_COMPLIANCE_STATUS": {
+      "from": "MSME",
+      "to": "ComplianceStatus",
+      "description": "MSME has a compliance status."
+    },
+    "HAS_RISK_BUCKET": {
+      "from": "MSME",
+      "to": "RiskBucket",
+      "description": "MSME is assigned a risk bucket."
+    },
+    "HAS_FINANCIAL_PROFILE": {
+      "from": "MSME",
+      "to": "FinancialProfile",
+      "description": "MSME is associated with a financial profile."
+    },
+    "HAS_OPERATIONAL_PROFILE": {
+      "from": "MSME",
+      "to": "OperationalProfile",
+      "description": "MSME is associated with an operational profile."
+    },
+    "HAS_OWNERSHIP_PROFILE": {
+      "from": "MSME",
+      "to": "OwnershipProfile",
+      "description": "MSME is linked to an ownership profile."
+    },
+    "HAS_WORKFORCE_PROFILE": {
+      "from": "MSME",
+      "to": "WorkforceProfile",
+      "description": "MSME is linked to a workforce profile."
+    },
+    "BELONGS_TO_CLUSTER": {
+      "from": "MSME",
+      "to": "Cluster",
+      "description": "MSME belongs to a geospatial or sectoral cluster."
+    },
+    "REQUIRES_SUPPORT": {
+      "from": "MSME",
+      "to": "SupportNeed",
+      "description": "MSME is associated with a support need."
+    },
+    "ELIGIBLE_FOR": {
+      "from": "MSME",
+      "to": "PolicyProgram",
+      "description": "MSME is eligible for a policy program."
+    },
+    "BENEFITS_FROM": {
+      "from": "MSME",
+      "to": "PolicyProgram",
+      "description": "MSME benefits from a program."
+    },
+    "SIMILAR_TO": {
+      "from": "MSME",
+      "to": "MSME",
+      "description": "Two MSMEs share a similarity such as location, category, or risk profile."
+    },
+    "SUPPLIES_TO": {
+      "from": "MSME",
+      "to": "MSME",
+      "description": "One MSME supplies another business or buyer."
+    },
+    "BUYS_FROM": {
+      "from": "MSME",
+      "to": "MSME",
+      "description": "One MSME buys from another."
+    }
+  },
+  "query_patterns": [
+    "Find women-led MSMEs in a district that need support.",
+    "Show similar MSMEs within the same cluster or category.",
+    "Find supply-chain linkages between MSMEs in the same industrial park.",
+    "Explain why a firm is eligible for a policy program.",
+    "Find worker-intensive MSMEs that may benefit from skilling support."
+  ]
+}

@@ -1,0 +1,136 @@
+UNSUPERVISED FEATURE PATTERN ANALYSIS
+(No exam scores used — purely cross-student structure)
+=================================================================
+
+Total features : 114
+Students       : 42
+
+Tier thresholds:
+  Strong   : pattern_score >= 0.571  (38 features)
+  Moderate : pattern_score >= 0.479  (38 features)
+  Weak     : pattern_score <  0.479  (38 features)
+
+Dimension breakdown (Strong tier):
+  C1 : 5
+  C2 : 10
+  C3 : 9
+  C4 : 4
+  C5 : 10
+
+Full ranking:
+Rank  Feature                                         Score      Tier  Consist  Sil_k2      BC  Redund  XDim
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1  c2_reappraisal_proxy_coactivation               0.862    Strong    0.915   0.873   0.685   0.184    19
+   2  c2_stress_peak_attenuation                      0.804    Strong    0.945   0.899   0.682   0.172    14
+   3  c5_mastery_during_challenge                     0.795    Strong    0.875   0.870   0.589   0.183    15
+   4  c2_stress_recovery_latency                      0.783    Strong    0.909   0.849   0.638   0.184    12
+   5  c5_engagement_recovery_speed                    0.781    Strong    0.877   0.855   0.594   0.184    20
+   6  c5_mastery_mode_ratio                           0.754    Strong    0.831   0.806   0.480   0.200    23
+   7  c1_instability_MSSD                             0.742    Strong    0.855   0.772   0.517   0.209    19
+   8  c4_positive_reporting_bias                      0.736    Strong    0.932   0.857   0.577   0.144     9
+   9  c4_emotional_range_concordance                  0.735    Strong    0.841   0.861   0.486   0.170    14
+  10  c3_bounce_back_index                            0.724    Strong    0.898   0.842   0.613   0.116     9
+  11  c5_pride_after_production                       0.715    Strong    0.893   0.796   0.418   0.182    22
+  12  c3_late_task_engagement_ratio                   0.711    Strong    0.885   0.810   0.597   0.123     7
+  13  c2_stress_instability_MSSD                      0.690    Strong    0.823   0.747   0.461   0.208    17
+  14  c2_recovery_completeness                        0.683    Strong    0.890   0.817   0.510   0.147    11
+  15  c2_neg_to_pos_transition_speed                  0.669    Strong    0.862   0.864   0.609   0.125     5
+  16  c3_confusion_resolution_rate                    0.666    Strong    0.897   1.000   0.699   0.101     1
+  17  c3_post_block_engagement_quality                0.636    Strong    0.877   0.720   0.310   0.176    17
+  18  c5_mastery_during_challenge_binary              0.633    Strong    0.738   1.000   0.402   0.169    13
+  19  c5_transition_emotional_preparation             0.630    Strong    0.827   0.627   0.321   0.205    24
+  20  c1_emotion_kurtosis                             0.627    Strong    0.867   0.663   0.413   0.161     7
+  21  c2_emotion_variability_SD                       0.626    Strong    0.833   0.605   0.313   0.210    20
+  22  c1_skewness_balance                             0.620    Strong    0.818   0.684   0.394   0.183    11
+  23  c3_stress_inertia_during_blocks                 0.609    Strong    0.844   0.601   0.371   0.149     9
+  24  c3_longest_productive_streak                    0.609    Strong    0.845   0.739   0.423   0.137     6
+  25  c5_emotion_stage_differentiation                0.608    Strong    0.826   0.684   0.403   0.152     9
+  26  c5_interest_during_ideation                     0.606    Strong    0.844   0.591   0.299   0.189    19
+  27  c3_recovery_acceleration                        0.604    Strong    0.893   0.819   0.369   0.128     5
+  28  c1_AU_network_density                           0.603    Strong    0.824   0.679   0.287   0.211    18
+  29  c4_arousal_midrange_proportion                  0.602    Strong    0.777   0.743   0.349   0.139     8
+  30  c1_AU_network_clustering                        0.598    Strong    0.881   0.568   0.340   0.155     8
+  31  c2_anticipatory_regulation                      0.596    Strong    0.896   0.582   0.212   0.135     9
+  32  c3_block_anger_suppression                      0.585    Strong    0.871   0.679   0.289   0.150     9
+  33  c3_second_order_block_escape                    0.584    Strong    0.806   0.931   0.393   0.135     3
+  34  c5_positive_creative_vs_focused                 0.583    Strong    0.872   0.717   0.191   0.147     8
+  35  c2_SAM_facial_discrepancy_reduction             0.581    Strong    0.885   0.552   0.270   0.151     8
+  36  c5_stress_appropriate_modulation                0.580    Strong    0.879   0.681   0.136   0.167     9
+  37  c4_sam_response_range                           0.573    Strong    0.797   0.786   0.175   0.129     2
+  38  c2_cross_stage_regulation_var                   0.573    Strong    0.766   0.674   0.285   0.196    20
+  39  c1_inertia_composite                            0.569  Moderate    0.850   0.583   0.203   0.199    14
+  40  c2_stress_habituation_ratio                     0.567  Moderate    0.837   0.717   0.386   0.136     5
+  41  c1_spectral_entropy                             0.556  Moderate    0.811   0.678   0.191   0.191    18
+  42  c1_cross_stage_profile_differentiation          0.552  Moderate    0.824   0.685   0.342   0.147     9
+  43  c2_production_stress_floor                      0.548  Moderate    0.792   0.608   0.250   0.173    18
+  44  c3_productive_confusion_index                   0.546  Moderate    0.785   0.656   0.244   0.200    23
+  45  c5_block_positive_reframe                       0.544  Moderate    0.897   0.513   0.154   0.104     3
+  46  c5_block_constructive_confusion                 0.541  Moderate    0.801   0.623   0.286   0.167    11
+  47  c2_negative_emotion_inertia                     0.541  Moderate    0.837   0.567   0.226   0.177    11
+  48  c4_stage_emotion_appropriateness                0.540  Moderate    0.855   0.685   0.165   0.125    10
+  49  c3_total_productive_time_ratio                  0.535  Moderate    0.841   0.560   0.262   0.142     8
+  50  c1_high_freq_power_ratio                        0.534  Moderate    0.826   0.680   0.239   0.162     8
+  51  c2_lip_press_index                              0.532  Moderate    0.837   0.647   0.286   0.140     8
+  52  c2_block_stage_regulation_eff                   0.532  Moderate    0.847   0.666   0.177   0.149     7
+  53  c2_early_vs_late_regulation_ratio               0.531  Moderate    0.842   0.693   0.346   0.135     2
+  54  c5_flow_stability                               0.530  Moderate    0.774   0.688   0.318   0.118     4
+  55  c5_cognitive_effort_deployment                  0.526  Moderate    0.886   0.463   0.120   0.132     3
+  56  c2_stress_inertia                               0.525  Moderate    0.835   0.555   0.196   0.196    18
+  57  c3_block_neg_affect_damping                     0.524  Moderate    0.847   0.666   0.177   0.149     5
+  58  c3_forward_stage_momentum                       0.523  Moderate    0.833   0.642   0.178   0.144    13
+  59  c3_block_emotional_traj_slope                   0.517  Moderate    0.848   0.621   0.218   0.142     9
+  60  c2_emotion_repertoire_diversity                 0.517  Moderate    0.767   0.701   0.197   0.171    17
+  61  c4_arousal_optimality                           0.516  Moderate    0.773   0.649   0.294   0.136     7
+  62  c1_expression_ambiguity                         0.513  Moderate    0.841   0.570   0.198   0.213    17
+  63  c4_valence_turning_points                       0.511  Moderate    0.801   0.626   0.198   0.142     5
+  64  c3_productive_streak_variability                0.510  Moderate    0.849   0.638   0.304   0.114     1
+  65  c3_effective_time_efficiency                    0.504  Moderate    0.834   0.533   0.223   0.149     8
+  66  c4_valence_recovery_magnitude                   0.503  Moderate    0.753   0.703   0.190   0.141     6
+  67  c1_AU_activation_breadth                        0.502  Moderate    0.818   0.553   0.185   0.207    18
+  68  c1_emotion_transition_entropy                   0.502  Moderate    0.789   0.615   0.187   0.185    13
+  69  c5_flow_proxy_production                        0.499  Moderate    0.795   0.595   0.237   0.139     8
+  70  c4_pride_during_production                      0.499  Moderate    0.861   0.572   0.147   0.157    13
+  71  c1_sample_entropy_AU                            0.495  Moderate    0.846   0.598   0.158   0.184    15
+  72  c4_valence_curvature                            0.493  Moderate    0.863   0.620   0.194   0.117     1
+  73  c1_expression_distinctiveness                   0.491  Moderate    0.809   0.601   0.221   0.184    16
+  74  c3_productive_absorbing_prob                    0.490  Moderate    0.857   0.629   0.146   0.131     3
+  75  c5_ideation_positive_affect                     0.483  Moderate    0.799   0.603   0.254   0.126     5
+  76  c5_stage_emotion_profile_fit                    0.481  Moderate    0.837   0.495   0.177   0.119     6
+  77  c2_regulation_strategy_switching                0.478      Weak    0.783   0.536   0.186   0.177    15
+  78  c2_negative_expression_dampening                0.477      Weak    0.836   0.550   0.209   0.122     2
+  79  c1_emotion_blend_count                          0.476      Weak    0.782   0.607   0.221   0.170    10
+  80  c4_temporal_coherence                           0.475      Weak    0.837   0.596   0.246   0.151     5
+  81  c5_confusion_resolution_rate                    0.471      Weak    0.774   0.639   0.189   0.138     9
+  82  c5_stage_stress_context_sensitivity             0.469      Weak    0.803   0.514   0.188   0.148     9
+  83  c2_peak_to_baseline_slope                       0.465      Weak    0.795   0.589   0.193   0.167    14
+  84  c3_adversity_composure_index                    0.464      Weak    0.781   0.632   0.197   0.144     8
+  85  c1_simpson_diversity                            0.459      Weak    0.763   0.609   0.209   0.165    10
+  86  c1_neg_emotion_differentiation                  0.459      Weak    0.799   0.646   0.184   0.132     4
+  87  c1_emotion_differentiation_ICC                  0.457      Weak    0.792   0.651   0.187   0.142     6
+  88  c4_valence_negemo_concordance                   0.457      Weak    0.771   0.653   0.200   0.180     4
+  89  c1_gini_emodiversity                            0.453      Weak    0.793   0.613   0.195   0.166    10
+  90  c4_evaluation_anxiety_alignment                 0.450      Weak    0.783   0.644   0.202   0.153     6
+  91  c3_regressive_transition_ratio                  0.447      Weak    0.814   0.551   0.223   0.120     0
+  92  c4_arousal_AU_concordance                       0.447      Weak    0.755   0.703   0.220   0.160     6
+  93  c4_arousal_trend                                0.446      Weak    0.795   0.654   0.196   0.144     6
+  94  c4_valence_happiness_concordance                0.440      Weak    0.799   0.620   0.234   0.114     2
+  95  c4_anchoring_resistance                         0.438      Weak    0.798   0.636   0.194   0.144     7
+  96  c4_arousal_stability                            0.434      Weak    0.850   0.594   0.154   0.130     3
+  97  c3_task_completion_persistence                  0.430      Weak    0.747   0.667   0.207   0.136     5
+  98  c3_productive_iteration_index                   0.427      Weak    0.804   0.550   0.176   0.127     2
+  99  c4_negative_emotion_differentiation             0.426      Weak    0.760   0.679   0.192   0.142    14
+ 100  c4_facial_valence_accuracy                      0.424      Weak    0.801   0.572   0.184   0.176     4
+ 101  c3_block_to_production_rate                     0.423      Weak    0.744   0.616   0.205   0.120     2
+ 102  c3_struggle_benefit_index                       0.413      Weak    0.799   0.553   0.185   0.155    10
+ 103  c4_valence_arousal_discrimination               0.409      Weak    0.736   0.645   0.211   0.143     4
+ 104  c5_arousal_SAM_task_match                       0.408      Weak    0.793   0.613   0.181   0.155    15
+ 105  c2_valence_arousal_reg_coupling                 0.406      Weak    0.782   0.568   0.185   0.168    14
+ 106  c4_change_detection_alignment                   0.406      Weak    0.787   0.536   0.183   0.179     8
+ 107  c3_block_exit_diversity                         0.402      Weak    0.803   0.582   0.173   0.113     0
+ 108  c1_stage_emodiversity_variance                  0.398      Weak    0.806   0.542   0.172   0.182    13
+ 109  c4_absolute_calibration_error                   0.389      Weak    0.814   0.523   0.168   0.168     6
+ 110  c5_production_concentration                     0.387      Weak    0.809   0.534   0.182   0.147     4
+ 111  c5_evaluation_critical_engagement               0.385      Weak    0.805   0.577   0.176   0.120     3
+ 112  c4_block_stage_awareness                        0.373      Weak    0.757   0.622   0.186   0.160    11
+ 113  c4_valence_stress_inverse_concordance           0.366      Weak    0.791   0.565   0.185   0.168     4
+ 114  c1_emotion_richness                             0.364      Weak    1.000  -1.000     nan     nan     0

@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "4",
+  "Reaction type": "7",
+  "Procedure details": "procedure_details: \" 3-(2-chloropyridin-4-yloxy)-2,6-dimethylpyridine (6.47 g, 27.57 mmol), Sulfanilamide (6.17 g, 35.84 mmol), CESIUM CARBONATE (13.47 g, 41.35 mmol) and XANTPHOS (1.595 g, 2.76 mmol) were stirred in DMA (130 ml). Purged this stirred mixture by bubbling nitrogen through for an hour, then added the Palladium acetate. Heated to 130\u00baC in a metal block (block at 150\u00baC) and held at this temperature for 3 hours. LCMS (monitorbase) then showed DP as MH+ = 370.99 and MH- = 369.03 at 1.82 minutes, 84%. Allowed to cool to room temperature. The reaction mixture was evaporated to dryness at 50\u00baC giving __ a dirty-yellow solid residue.  Treated with 150 ml water and the resulting yellow solid filtered off and washed with water. Dried by desiccation under high vacuum over phosphorous pentoxide at room temperature to constant weight. This afforded 11.98 g pale- yellow solid [A].  LCMS(monitorbase) showed it to be DP as MH+ = 370.99 and MH- = 369.03 at 1.83 minutes, 90%.  _ _ This material was crystallised from acetonitrile; dissolved up in ~1 litre boiling acetonitrile and the cloudy solution filtered hot through a fluted paper. Crystallisation of product from the filtrate was eventually achieved, with difficulty, by rapid cooling in drikold/acetone and seeding/scratching as it warmed up. Cooled in ice/water then the solid was collected by filtration and washed with chilled acetonitrile. Dried by desiccation under high vacuum at room temperature to constant weight. This afforded 6.03 g creamy-white solid [B].  LCMS (monitorbase) then showed DP as MH+ = 370.99 and MH- = 369.03 at 1.49 minutes, 96%.  Material B was combined with the same product from P14-A and this total of 7.32 g recrystallised from the minimum of acetonitrile (~550 ml) with hot filtration again to remove trace insoluble matter. Cooled in ice/water and seeded/scratched to induce crystallisation then stood in the fridge overnight. The solid was collected by filtration and washed with chilled acetonitrile. Dried by desiccation under high vacuum initially at room temperature, then at 60\u00b0C, to constant weight. This afforded 5.04 g creamy-white solid [C].  LCMS (monitorbase) then showed DP as MH+ = 371.06 and MH- = 369.08 at 1.85 minutes, 99%.  Unfortunately nmr showed entrapped acetonitrile at an unacceptable level (~0.5 equiv.). To remove this material C was stirred in ~100 ml ether for an hour, recollected and washed with ether. Dried at 60\u00b0C as before to constant weight. This afforded 4.73 g creamy-white solid [D].  \"\n",
+  "Temperature": "150 CELSIUS",
+  "Reactant smiles": "C1=CC(=CC=C1N)S(=O)(=O)N",
+  "Reactant value": "0.0358 MOLE",
+  "Reagent smiles": "CC(=O)N(C)C",
+  "Reagent value": "0.00276 MOLE",
+  "Solvent smiles": "CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C",
+  "Solvent values": "0.00276 MOLE",
+  "Catalyst smiles": "CC(=O)O.CC(=O)O.[Pd]",
+  "Catalyst value": "0.00193 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

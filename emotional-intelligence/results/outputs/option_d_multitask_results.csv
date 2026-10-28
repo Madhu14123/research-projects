@@ -1,0 +1,6 @@
+,r2,pearson_r,rmse,p_value,task,accuracy,f1,auc,task1_r,task1_r2,task1_rmse,task2_acc,task2_f1
+SingleTask_Task1_Ridge,-0.2695436642487745,0.3166237672300503,4.144165123296023,0.05991393167757075,Task 1 (Exam Score),,,,,,,,
+SingleTask_Task1_Random Forest,-0.05090390143737156,0.0972770381266618,3.770463425687145,0.5724784338008269,Task 1 (Exam Score),,,,,,,,
+SingleTask_Task2_Logistic Regression,,,,,Task 2 (Regulation),0.6666666666666666,0.6842105263157895,0.75,,,,,
+SingleTask_Task2_Random Forest Classifier,,,,,Task 2 (Regulation),0.6944444444444444,0.6857142857142857,0.7731481481481481,,,,,
+MultiTask_Combined,,,,,Multi-Task,,,,0.3166237672300503,-0.2695436642487745,4.144165123296023,0.6666666666666666,0.6842105263157895

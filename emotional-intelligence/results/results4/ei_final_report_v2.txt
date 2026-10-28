@@ -1,0 +1,54 @@
+
+EMOTIONAL INTELLIGENCE SCORING MODEL (V2 - CORRECTED)
+============================================================
+
+MODEL SPECIFICATION:
+  Features:           15 (8 original + 7 derived interactions)
+  Algorithm:          Ridge Regression (α=1.0)
+  Cross-validation:   Leave-One-Out (LOOCV, n=42)
+
+VALIDATION RESULTS:
+  Pearson correlation (EI vs Exam):     r = +0.8949
+  Significance level:                    p = 1.34e-15
+  Coefficient of determination:          R² = 0.8001
+  Root mean squared error:               RMSE = 6.71%
+  Mean absolute error:                   MAE = 5.06%
+  Spearman rank correlation:             ρ = +0.8807
+
+COMPARISON TO BASELINE:
+  Raw 13 features (from interaction_discovery.py):    r = 0.6468, R² = 0.4044
+  Optimal 15 features (expected):                     r ≈ 0.89+
+  This model (V2 corrected):                          r = 0.8949, R² = 0.8001
+
+FEATURES USED:
+  Original (8):
+    1. c3_total_productive_time_ratio
+    2. c4_block_stage_awareness
+    3. c4_arousal_trend
+    4. c3_effective_time_efficiency
+    5. c4_arousal_optimality
+    6. c3_task_completion_persistence
+    7. c2_anticipatory_regulation
+    8. c5_flow_stability
+
+  Derived (7):
+    9. c4_arousal_optimality / c4_arousal_trend (ratio)
+    10. c2_cross_stage_regulation_var * c2_anticipatory_regulation (multiply)
+    11. c2_cross_stage_regulation_var / c4_block_stage_awareness (ratio)
+    12. c3_struggle_benefit_index / c4_arousal_midrange_proportion (ratio)
+    13. c3_total_productive_time_ratio / c4_block_stage_awareness (ratio)
+    14. c3_effective_time_efficiency / c3_struggle_benefit_index (ratio)
+    15. c2_cross_stage_regulation_var × c3_total_productive_time_ratio × c4_arousal_midrange_proportion (triple)
+
+OUTPUT SCORES:
+  EI Score Range:         0-100 (normalized)
+  Mean EI:                50.0
+  Median EI:              53.4
+  SD:                     23.4
+
+DELIVERABLES:
+  ✓ ei_final_scores_v2.csv           (student EI scores ranked)
+  ✓ ei_final_validation_v2.png       (4-panel validation plot)
+  ✓ ei_feature_importance_v2.csv     (feature coefficients)
+  ✓ ei_feature_importance_v2.png     (feature importance chart)
+  ✓ ei_final_scoring_v2.py           (reproducible model code)

@@ -1,0 +1,1004 @@
+[
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 0,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 0,
+      "Catalysts": 0,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "n_orig": 3,
+    "n_ref": 3,
+    "entity_increase_pct": 0.0,
+    "precision": 0.3333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "null_orig": 0.2,
+    "null_ref": 0.3888888888888889,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.475,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 1,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 2
+    },
+    "tan_labels": [
+      "ethyl 6-bromo-4-(2,4",
+      "1-(isopropyl)piperaz"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 2,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.6667,
+      "deduplication": {
+        "entities_before": 3,
+        "entities_after": 3,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 0,
+        "corrections_applied": 0,
+        "correction_rate": 0.0,
+        "corrections": []
+      },
+      "molar_consistency_rate": 0.0,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "0",
+    "source_file": "reaction_1.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 1,
+      "Catalysts": 2,
+      "Solvents": 1,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.25,
+    "recall": 0.1429,
+    "f1": 0.1819,
+    "null_orig": 0.3,
+    "null_ref": 0.25,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.0,
+    "hard_match": 0.0,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.6,
+    "atom_ok_orig": false,
+    "atom_ok_ref": true,
+    "molar_cons": 5,
+    "molar_total": 5,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 7,
+      "CIR": 1
+    },
+    "tan_labels": [
+      "8-chloro-4-methyl-2-",
+      "2-(dicyclohexylphosp",
+      "cesium carbonate",
+      "argon",
+      "2-(dicyclohexylphosp",
+      "palladium(ii) acetat",
+      "dme",
+      "n-(4-(1h-imidazol-1-"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 6,
+        "CIR": 1
+      },
+      "smiles_hit_rate": 1.0,
+      "deduplication": {
+        "entities_before": 9,
+        "entities_after": 9,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 2,
+        "corrections_applied": 1,
+        "correction_rate": 0.5,
+        "corrections": [
+          {
+            "entity": "Palladium(II) acetate",
+            "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]...",
+            "original_roles": [
+              "catalysts",
+              "reactants"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains palladium - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": 1.0,
+      "atom_map_ratio": 0.6,
+      "atom_map_status": "Success",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "9",
+    "source_file": "reaction_10.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 3,
+      "Catalysts": 2,
+      "Solvents": 3,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 11,
+    "entity_increase_pct": 175.0,
+    "precision": 0.75,
+    "recall": 0.3333,
+    "f1": 0.4615,
+    "null_orig": 0.3,
+    "null_ref": 0.3409090909090909,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.379,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 3,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 9
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "methyl 5-amino-4-flu",
+      "cesium carbonate",
+      "iodobenzene",
+      "anisole",
+      "isohexane",
+      "dcm",
+      "meoh"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 9,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9,
+      "deduplication": {
+        "entities_before": 13,
+        "entities_after": 12,
+        "duplicates_removed": 1,
+        "duplicate_rate": 0.0769,
+        "unique_entity_ratio": 0.9231,
+        "merged_groups": [
+          {
+            "role": "reagents",
+            "merged": [
+              "Anisole",
+              "Anisole"
+            ]
+          }
+        ]
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "Anisole",
+            "smiles": "COc1ccccc1...",
+            "original_roles": [
+              "solvents",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains ni - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": 0.0,
+      "atom_map_ratio": 0.379,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.38)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "1",
+    "source_file": "reaction_2.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 2,
+      "Catalysts": 2,
+      "Solvents": 3,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 11,
+    "entity_increase_pct": 175.0,
+    "precision": 0.75,
+    "recall": 0.3333,
+    "f1": 0.4615,
+    "null_orig": 0.3,
+    "null_ref": 0.3484848484848485,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1667,
+    "hard_match": 0.1167,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.338,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 3,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 9
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "methyl 5-amino-4-flu",
+      "iodobenzene",
+      "cesium carbonate",
+      "anisole",
+      "isohexane",
+      "dichloromethane",
+      "methanol"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 9,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9,
+      "deduplication": {
+        "entities_before": 12,
+        "entities_after": 12,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "Anisole",
+            "smiles": "COc1ccccc1...",
+            "original_roles": [
+              "solvents",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains ni - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": 0.0,
+      "atom_map_ratio": 0.338,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.34)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "2",
+    "source_file": "reaction_3.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 2,
+      "Catalysts": 2,
+      "Solvents": 3,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 11,
+    "entity_increase_pct": 175.0,
+    "precision": 0.75,
+    "recall": 0.3333,
+    "f1": 0.4615,
+    "null_orig": 0.3,
+    "null_ref": 0.3484848484848485,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1667,
+    "hard_match": 0.1167,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.338,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 3,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 9
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "methyl 5-amino-4-flu",
+      "iodobenzene",
+      "cesium carbonate",
+      "anisole",
+      "isohexane",
+      "dcm",
+      "meoh"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 9,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9,
+      "deduplication": {
+        "entities_before": 12,
+        "entities_after": 12,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "Anisole",
+            "smiles": "COc1ccccc1...",
+            "original_roles": [
+              "solvents",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains ni - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": 0.0,
+      "atom_map_ratio": 0.338,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.34)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "3",
+    "source_file": "reaction_4.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 2,
+      "Catalysts": 1,
+      "Solvents": 4,
+      "Products": 5
+    },
+    "n_orig": 4,
+    "n_ref": 14,
+    "entity_increase_pct": 250.0,
+    "precision": 0.25,
+    "recall": 0.1667,
+    "f1": 0.2,
+    "null_orig": 0.3,
+    "null_ref": 0.5059523809523809,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 6
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium acetate",
+      "acetonitrile",
+      "water"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 6,
+        "failed": 4
+      },
+      "smiles_hit_rate": 0.6,
+      "deduplication": {
+        "entities_before": 15,
+        "entities_after": 15,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "Palladium acetate",
+            "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]...",
+            "original_roles": [
+              "catalysts",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains palladium - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "4",
+    "source_file": "reaction_5.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 2,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.25,
+    "recall": 0.1667,
+    "f1": 0.2,
+    "null_orig": 0.3,
+    "null_ref": 0.40625,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1667,
+    "hard_match": 0.1167,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.788,
+    "atom_ok_orig": false,
+    "atom_ok_ref": true,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 6
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium(ii) acetat",
+      "acetonitrile",
+      "4-(4-(2,6-dimethylpy"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 6,
+        "failed": 2
+      },
+      "smiles_hit_rate": 0.75,
+      "deduplication": {
+        "entities_before": 9,
+        "entities_after": 9,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "PALLADIUM(II) ACETATE",
+            "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]...",
+            "original_roles": [
+              "catalysts",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains palladium - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.788,
+      "atom_map_status": "Success",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "5",
+    "source_file": "reaction_6.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 3,
+      "Catalysts": 1,
+      "Solvents": 3,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 10,
+    "entity_increase_pct": 150.0,
+    "precision": 0.25,
+    "recall": 0.1667,
+    "f1": 0.2,
+    "null_orig": 0.3,
+    "null_ref": 0.48333333333333334,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 6
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium acetate",
+      "dcm",
+      "acetonitrile"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 6,
+        "failed": 4
+      },
+      "smiles_hit_rate": 0.6,
+      "deduplication": {
+        "entities_before": 11,
+        "entities_after": 11,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "Palladium acetate",
+            "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]...",
+            "original_roles": [
+              "catalysts",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains palladium - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "6",
+    "source_file": "reaction_7.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 2,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1": 0.2222,
+    "null_orig": 0.3,
+    "null_ref": 0.4166666666666667,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 1,
+    "molar_total": 1,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 5
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium(ii) acetat",
+      "mecn"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 5,
+        "failed": 3
+      },
+      "smiles_hit_rate": 0.625,
+      "deduplication": {
+        "entities_before": 9,
+        "entities_after": 9,
+        "duplicates_removed": 0,
+        "duplicate_rate": 0.0,
+        "unique_entity_ratio": 1.0,
+        "merged_groups": []
+      },
+      "role_consistency": {
+        "conflicts_detected": 1,
+        "corrections_applied": 1,
+        "correction_rate": 1.0,
+        "corrections": [
+          {
+            "entity": "PALLADIUM(II) ACETATE",
+            "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]...",
+            "original_roles": [
+              "catalysts",
+              "reagents"
+            ],
+            "corrected_to": "Catalyst",
+            "reasoning": "Contains palladium - typical catalyst metal"
+          }
+        ]
+      },
+      "molar_consistency_rate": 1.0,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "7",
+    "source_file": "reaction_8.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 0,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 4,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 1
+    },
+    "n_orig": 3,
+    "n_ref": 9,
+    "entity_increase_pct": 200.0,
+    "precision": 0.3333,
+    "recall": 0.3333,
+    "f1": 0.3333,
+    "null_orig": 0.2,
+    "null_ref": 0.4074074074074074,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.941,
+    "atom_ok_orig": false,
+    "atom_ok_ref": true,
+    "molar_cons": 2,
+    "molar_total": 2,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 3
+    },
+    "tan_labels": [
+      "3,5-dibromopyridine",
+      "1-(piperazin-1-yl)et",
+      "1-(4-(5-bromopyridin"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "failed": 4,
+        "OPSIN-WebAPI": 3
+      },
+      "smiles_hit_rate": 0.4286,
+      "deduplication": {
+        "entities_before": 11,
+        "entities_after": 9,
+        "duplicates_removed": 2,
+        "duplicate_rate": 0.1818,
+        "unique_entity_ratio": 0.8182,
+        "merged_groups": [
+          {
+            "role": "reactants",
+            "merged": [
+              "3,5-dibromopyridine",
+              "3,5-dibromopyridine"
+            ]
+          },
+          {
+            "role": "reactants",
+            "merged": [
+              "1-(piperazin-1-yl)ethanone",
+              "1-(piperazin-1-yl)ethanone"
+            ]
+          }
+        ]
+      },
+      "role_consistency": {
+        "conflicts_detected": 0,
+        "corrections_applied": 0,
+        "correction_rate": 0.0,
+        "corrections": []
+      },
+      "molar_consistency_rate": 1.0,
+      "atom_map_ratio": 0.941,
+      "atom_map_status": "Success",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "8",
+    "source_file": "reaction_9.json"
+  }
+]

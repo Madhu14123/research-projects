@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "9",
+  "Reaction type": "12",
+  "Procedure details": "procedure_details: \"[Reactants], 8-chloro-4-methyl-2-phenyl-2,3,4,5-tetrahydropyrido[3,2-f][1,4]oxazepine (0.120 g, 0.44 mmol), Palladium(II) acetate (9.81 mg, 0.04 mmol), 2-(Dicyclohexylphosphino)biphenyl (0.015 g, 0.04 mmol) and Cesium carbonate (0.427 g, 1.31 mmol) in DME (2.5 mL) were placed in a microwave vial and flushed with argon. The reaction mixture was then run in the microwave at 100\u00b0C for 1 hr. Reaction not complete. Run for another 30 minutes in the microwave. Still not complete. Added 0.1 eq of Palladium(II)acetate and 0.1 eq of 2-(Dicyclohexylphosphino)biphenyl and let the reaction mixture run in the microwave for additional 45 minutes. Reaction complete. The reaction mixture was filtrated through celite and the filtrate was concentrated. The crude product was purified by preparative chromatography giving 0.072 g (41%) of the product.  N-(4-(1H-imidazol-1-yl)phenyl)-4-methyl-2-phenyl-2,3,4,5-tetrahydropyrido[3,2-f][1,4]oxazepin-8-amine  \"\n",
+  "Temperature": "100 CELSIUS",
+  "Reactant smiles": "C1=CC(=CC=C1N)N2C=CN=C2",
+  "Reactant value": "0.000437 MOLE",
+  "Reagent smiles": "COCCOC",
+  "Reagent value": "4.37e-005 MOLE",
+  "Solvent smiles": "C1CCC(CC1)P(C2CCCCC2)C3=CC=CC=C3C4=CC=CC=C4",
+  "Solvent values": "4.37e-005 MOLE",
+  "Catalyst smiles": "CC(=O)O.CC(=O)O.[Pd]",
+  "Catalyst value": "4.37e-005 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

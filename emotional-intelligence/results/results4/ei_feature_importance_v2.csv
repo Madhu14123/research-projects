@@ -1,0 +1,16 @@
+feature,coefficient,abs_coefficient
+c3_total_productive_time_ratio,8.678333840154021,8.678333840154021
+c2_anticipatory_regulation,-5.341649388489632,5.341649388489632
+c4_block_stage_awareness,-4.928043931530851,4.928043931530851
+c3_total_productive_time_ratio / c4_block_stage_awareness,-4.536702404572457,4.536702404572457
+c4_arousal_optimality / c4_arousal_trend,3.9770875750808576,3.9770875750808576
+c3_struggle_benefit_index / c4_arousal_midrange_proportion,-3.5427336832586374,3.5427336832586374
+c2_cross_stage_regulation_var / c4_block_stage_awareness,-3.4461571962460886,3.4461571962460886
+c3_task_completion_persistence,3.315170429438609,3.315170429438609
+c4_arousal_trend,3.1170867251626393,3.1170867251626393
+c3_effective_time_efficiency / c3_struggle_benefit_index,-2.228814741311215,2.228814741311215
+c3_effective_time_efficiency,-2.168593586132904,2.168593586132904
+c5_flow_stability,-1.9558575001408727,1.9558575001408727
+c2_cross_stage_regulation_var * c3_total_productive_time_ratio * c4_arousal_midrange_proportion,1.5858507479597916,1.5858507479597916
+c2_cross_stage_regulation_var * c2_anticipatory_regulation,1.0790201000001314,1.0790201000001314
+c4_arousal_optimality,0.7987061820256656,0.7987061820256656

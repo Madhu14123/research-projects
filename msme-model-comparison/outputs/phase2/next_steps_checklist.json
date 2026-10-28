@@ -1,0 +1,9 @@
+{
+  "next_steps": [
+    "Train baseline clustering model using latitude, longitude, investment, and employment.",
+    "Evaluate cluster quality and interpret high-density districts.",
+    "Use logistic regression to predict high-risk compliance cases.",
+    "Validate results on holdout data and refine features.",
+    "Prepare model cards and deployment-ready APIs."
+  ]
+}

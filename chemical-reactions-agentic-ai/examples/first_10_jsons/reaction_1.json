@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "0",
+  "Reaction type": "0",
+  "Procedure details": "procedure_details: \"To a solution of ethyl 6-bromo-4-(2,4-difluorophenylamino)-7-ethoxyquinoline-3-carboxylate (400 mg, 0.89 mmol) and 1-(Isopropyl)piperazine (254 \u00b5l, 1.77 mmol) in dioxane was added cesium carbonate (722 mg, 2.22 mmol), tris(dibenzylideneacetone)dipalladium(0) (40.6 mg, 0.04 mmol) and rac-2,2\\'-Bis(diphenylphosphino)-1,1\\'-binaphthyl (55.2 mg, 0.09 mmol). Reaction vessel in oil bath set to 110 \u00b0C. 11am  After 5 hours, MS shows product (major peak 499), and SM (minor peak 453).  o/n, MS shows product peak. Reaction cooled, concentrated onto silica, and purified on ISCO. 40g column, 1:1 EA:Hex, then 100% EA.  289mg yellow solid. NMR (EN00180-62-1) supports product, but some oxidised BINAP impurity (LCMS 655).  \"\n",
+  "Temperature": "110 CELSIUS",
+  "Reactant smiles": "CC(C)N1CCNCC1",
+  "Reactant value": "0.00177 MOLE",
+  "Reagent smiles": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=C(C4=CC=CC=C4C=C3)C5=C(C=CC6=CC=CC=C65)P(C7=CC=CC=C7)C8=CC=CC=C8",
+  "Reagent value": "8.86e-005 MOLE",
+  "Solvent smiles": "",
+  "Solvent values": "",
+  "Catalyst smiles": "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+  "Catalyst value": "4.43e-005 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

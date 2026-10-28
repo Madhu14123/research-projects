@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "5",
+  "Reaction type": "8",
+  "Procedure details": "procedure_details: \"XANTPHOS (2.466 g, 4.26 mmol) was added to 3-(2-chloropyridin-4-yloxy)-2,6-dimethylpyridine (10g, 42.61 mmol), Sulfanilamide (9.54 g, 55.39 mmol) and CESIUM CARBONATE (20.83 g, 63.92 mmol) in DMA (200 ml) at 20\u00baC. Nitrogen was bubbled through the reaction mixture for 1 hour then PALLADIUM(II) ACETATE (0.670 g, 2.98 mmol) added. The suspension was stirred at 130 \u00b0C for 3 hours. The reaction mixture was filtered then evaporated to dryness. The residue was triturated with water (150 mL) and filtered to give crude product as a cream solid - 90% pure. The crude solid was triturated with hot acetonitrile (300 mL) and filtered to afford crude product as a cream solid - 98% by LCMS. This was combined with the product from EN02084-31 and dissolved in boiling acetonitrile (approx 1 L). The solution was concentrated to 500 mL and cooled to ice bath temperature with stirring. A precipitate formed which and the suspension was stirred at room temperature overnight. The solid was filtered to afford 4-(4-(2,6-dimethylpyridin-3-yloxy)pyridin-2-ylamino)benzenesulfonamide (12.00 g, 76 %) as a cream solid.  \"\n",
+  "Temperature": "130 CELSIUS",
+  "Reactant smiles": "C1=CC(=CC=C1N)S(=O)(=O)N",
+  "Reactant value": "0.0554 MOLE",
+  "Reagent smiles": "CC(=O)N(C)C",
+  "Reagent value": "0.00426 MOLE",
+  "Solvent smiles": "CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C",
+  "Solvent values": "0.00426 MOLE",
+  "Catalyst smiles": "CC(=O)O.CC(=O)O.[Pd]",
+  "Catalyst value": "0.00298 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

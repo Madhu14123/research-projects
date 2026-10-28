@@ -1,0 +1,16 @@
+{
+  "Reaction Id": "2",
+  "Reaction type": "3",
+  "Procedure details": "procedure_details: \"9,9-Dimethyl-4,5-bis(diphenylphosphino)xanthene (389 mg, 0.67 mmol) and Tris(dibenzylideneacetone)dipalladium(0) (246 mg, 0.27 mmol) were added to a round bottom flask which was evacuated and flushed with nitrogen 3 times, anisole (14.900 ml) was added and the mixture evacuated and flushed with nitrogen 3 times and then heated to 50\u00baC for 10 minutes. Cesium carbonate (5474 mg, 16.80 mmol), methyl 5-amino-4-fluoro-1-methyl-1H-benzo[d]imidazole-6-carboxylate (1500 mg, 6.72 mmol) and Iodobenzene (0.902 ml, 8.06 mmol) were stirred in anisole (29.8 ml), the flask was evacuated and flushed with nitrogen three times and then heated to 50\u00baC. The catalyst mixture was transferred into the flask with the reactants (by syringe) and the mixture heated to 100 \u00b0C for 18 hours. The reaction mixture was diluted with isohexane (50 ml) the solid collected by filtration and washed with more isohexane (25 ml). The solid was slurried in dichloromethane (40 ml) and methanol (10 ml) and filtered, washing the remaining solid with more dichloromethane / methanol. The filtratre (containing product) was evaporated onto silica and purified by flash silica chromatography, eluting with 2% 3.7N NH3 / MeOH in DCM. Pure fractions were evaporated to dryness to afford methyl 4-fluoro-1-methyl-5-(phenylamino)-1H-benzo[d]imidazole-6-carboxylate (1316 mg, 65.4 %) as a light yellow solid.    \"\n",
+  "Temperature": "100 CELSIUS",
+  "Reactant smiles": "CN1C=NC2=C1C=C(C(=C2F)N)C(=O)OC",
+  "Reactant value": "0.00672 MOLE",
+  "Reagent smiles": "COC1=CC=CC=C1",
+  "Reagent value": "0.000672 MOLE",
+  "Solvent smiles": "CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C",
+  "Solvent values": "0.000672 MOLE",
+  "Catalyst smiles": "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+  "Catalyst value": "0.000269 MOLE",
+  "Product smiles": "",
+  "Product values": ""
+}

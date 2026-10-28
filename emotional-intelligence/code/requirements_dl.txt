@@ -1,0 +1,15 @@
+# Core scientific stack
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+openpyxl>=3.1
+
+# Deep learning (CPU-only install — remove --index-url for GPU)
+# Run this separately:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Already installed from previous pipeline
+shap>=0.44
+xgboost>=2.0

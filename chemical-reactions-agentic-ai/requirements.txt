@@ -1,0 +1,13 @@
+numpy
+pandas
+pydantic
+langchain-core
+langchain-openai
+langchain-ollama
+langgraph
+mcp
+rdkit
+requests
+matplotlib
+scikit-learn
+scipy

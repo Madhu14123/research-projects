@@ -1,0 +1,2 @@
+best_model,optimal_k,LOOCV_R2,LOOCV_RMSE,LOOCV_MAE,LOOCV_r,features
+Huber,6,0.5617093080012258,9.941914793591684,7.379025527710457,0.7499802226600062,c3_total_productive_time_ratio; c4_arousal_trend; c4_arousal_optimality; c5_flow_stability; c4_block_stage_awareness; c2_anticipatory_regulation

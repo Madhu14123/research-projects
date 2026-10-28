@@ -1,0 +1,42 @@
+{
+  "phase_2_priority": [
+    "Cluster Analysis (location + product + scale)",
+    "Environmental Risk Prediction (high-risk compliance cases)",
+    "Women MSME Performance Analysis",
+    "Credit Scoring Preparation (turnover-ready subset)"
+  ],
+  "recommended_inputs": {
+    "cluster": [
+      "latitude",
+      "longitude",
+      "investment",
+      "employment"
+    ],
+    "environment": [
+      "PCBCATEGORY",
+      "DISTRICT_NAME",
+      "investment",
+      "employment",
+      "risk_score"
+    ],
+    "women": [
+      "is_women_led",
+      "DISTRICT_NAME",
+      "investment",
+      "turnover"
+    ],
+    "credit": [
+      "investment",
+      "employment",
+      "turnover",
+      "ROI_ratio",
+      "revenue_per_employee"
+    ]
+  },
+  "next_actions": [
+    "Tune K-Means cluster count and validate cluster stability.",
+    "Use feature engineering to improve environmental risk prediction.",
+    "Build a women-specific performance model on the women-led subset.",
+    "Experiment with imputation methods for turnover-dependent models."
+  ]
+}

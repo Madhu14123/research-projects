@@ -1,0 +1,98 @@
+{
+  "graph_name": "MSME Knowledge Graph",
+  "description": "A unified graph schema for storing entities and relationships across district, category, compliance, financial, and workforce dimensions.",
+  "node_types": {
+    "MSME": {
+      "key_fields": ["SL", "UNIT_NAME"],
+      "properties": [
+        "SL", "UNIT_NAME", "investment", "employment", "turnover",
+        "latitude", "longitude", "risk_score", "female_percentage",
+        "ROI_ratio", "revenue_per_employee", "employees_per_lakh_investment"
+      ]
+    },
+    "District": {
+      "key_fields": ["DISTRICT_NAME"],
+      "properties": ["DISTRICT_NAME"]
+    },
+    "Mandal": {
+      "key_fields": ["DISTRICT_NAME", "mandal_name"],
+      "properties": ["mandal_name"]
+    },
+    "Category": {
+      "key_fields": ["CATEGOERY_NAME"],
+      "properties": ["CATEGOERY_NAME"]
+    },
+    "IndustrialPark": {
+      "key_fields": ["industrial_park"],
+      "properties": ["industrial_park"]
+    },
+    "PCBCategory": {
+      "key_fields": ["PCBCATEGORY"],
+      "properties": ["PCBCATEGORY"]
+    },
+    "SocialStatus": {
+      "key_fields": ["social_status"],
+      "properties": ["social_status"]
+    },
+    "PromoterType": {
+      "key_fields": ["promoter_women"],
+      "properties": ["promoter_women"]
+    },
+    "ODOPFlag": {
+      "key_fields": ["ODOP"],
+      "properties": ["ODOP"]
+    },
+    "RiskBucket": {
+      "key_fields": ["risk_bucket"],
+      "properties": ["risk_bucket"]
+    }
+  },
+  "edge_types": {
+    "LOCATED_IN_DISTRICT": {
+      "from": "MSME",
+      "to": "District"
+    },
+    "LOCATED_IN_MANDAL": {
+      "from": "MSME",
+      "to": "Mandal"
+    },
+    "BELONGS_TO_CATEGORY": {
+      "from": "MSME",
+      "to": "Category"
+    },
+    "HAS_INDUSTRIAL_PARK": {
+      "from": "MSME",
+      "to": "IndustrialPark"
+    },
+    "HAS_PCB_CATEGORY": {
+      "from": "MSME",
+      "to": "PCBCategory"
+    },
+    "HAS_SOCIAL_STATUS": {
+      "from": "MSME",
+      "to": "SocialStatus"
+    },
+    "HAS_PROMOTER_TYPE": {
+      "from": "MSME",
+      "to": "PromoterType"
+    },
+    "PARTICIPATES_IN_ODOP": {
+      "from": "MSME",
+      "to": "ODOPFlag"
+    },
+    "HAS_RISK_BUCKET": {
+      "from": "MSME",
+      "to": "RiskBucket"
+    },
+    "HAS_FINANCIAL_PROFILE": {
+      "from": "MSME",
+      "to": "MSME"
+    }
+  },
+  "advanced_query_examples": [
+    "Which districts have the highest concentration of RED-category MSMEs?",
+    "Show women-led MSMEs in Medchal with high turnover and low risk score.",
+    "Find all MSMEs that are in industrial estates and also have ODOP participation.",
+    "Which category-district pairs show the strongest average ROI?"
+  ]
+}

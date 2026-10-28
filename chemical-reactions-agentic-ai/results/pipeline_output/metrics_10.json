@@ -1,0 +1,707 @@
+[
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 0,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 0,
+      "Reagents": 0,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "n_orig": 3,
+    "n_ref": 2,
+    "entity_increase_pct": -33.3,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "null_orig": 0.2,
+    "null_ref": 0.36363636363636365,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.0,
+    "hard_match": 0.3,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 1,
+    "molar_total": 1,
+    "smiles_sources": {
+      "CIR": 1
+    },
+    "tan_labels": [
+      "tris(dibenzylideneac"
+    ],
+    "tan_orig": [
+      0.0
+    ],
+    "tan_ref": [
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "CIR": 1,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.5,
+      "molar_consistency_rate": 1.0,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Skipped – no SMILES",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "0",
+    "source_file": "reaction_1.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 5,
+      "Reagents": 10,
+      "Catalysts": 2,
+      "Solvents": 4,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 22,
+    "entity_increase_pct": 450.0,
+    "precision": 1.0,
+    "recall": 0.3333,
+    "f1": 0.5,
+    "null_orig": 0.3,
+    "null_ref": 0.32644628099173556,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1,
+    "hard_match": 0.07,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.173,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 4,
+    "molar_total": 5,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 18,
+      "CIR": 3
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "tris(dibenzylideneac",
+      "cesium carbonate",
+      "methyl 5-amino-4-flu",
+      "iodobenzene",
+      "anisole",
+      "nitrogen",
+      "cesium carbonate"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 12,
+        "CIR": 2,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9333,
+      "molar_consistency_rate": 0.8,
+      "atom_map_ratio": 0.173,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.17)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "1",
+    "source_file": "reaction_2.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 5,
+      "Reagents": 11,
+      "Catalysts": 1,
+      "Solvents": 4,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 22,
+    "entity_increase_pct": 450.0,
+    "precision": 1.0,
+    "recall": 0.3636,
+    "f1": 0.5333,
+    "null_orig": 0.3,
+    "null_ref": 0.30165289256198347,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1,
+    "hard_match": 0.07,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.173,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 4,
+    "molar_total": 4,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 19,
+      "CIR": 2
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "tris(dibenzylideneac",
+      "cesium carbonate",
+      "methyl 5-amino-4-flu",
+      "iodobenzene",
+      "anisole",
+      "nitrogen",
+      "cesium carbonate"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 14,
+        "CIR": 1,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9375,
+      "molar_consistency_rate": 1.0,
+      "atom_map_ratio": 0.173,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.17)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "2",
+    "source_file": "reaction_3.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 5,
+      "Reagents": 11,
+      "Catalysts": 2,
+      "Solvents": 4,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 23,
+    "entity_increase_pct": 475.0,
+    "precision": 1.0,
+    "recall": 0.3636,
+    "f1": 0.5333,
+    "null_orig": 0.3,
+    "null_ref": 0.2648221343873518,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.1,
+    "hard_match": 0.07,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.173,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 8,
+    "molar_total": 10,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 20,
+      "CIR": 2
+    },
+    "tan_labels": [
+      "9,9-dimethyl-4,5-bis",
+      "tris(dibenzylideneac",
+      "cesium carbonate",
+      "methyl 5-amino-4-flu",
+      "iodobenzene",
+      "anisole",
+      "nitrogen",
+      "cesium carbonate"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "OPSIN-WebAPI": 12,
+        "CIR": 1,
+        "failed": 1
+      },
+      "smiles_hit_rate": 0.9286,
+      "molar_consistency_rate": 0.8,
+      "atom_map_ratio": 0.173,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.17)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "3",
+    "source_file": "reaction_4.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 4,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 4
+    },
+    "n_orig": 4,
+    "n_ref": 11,
+    "entity_increase_pct": 175.0,
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1": 0.3333,
+    "null_orig": 0.3,
+    "null_ref": 0.3884297520661157,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.125,
+    "hard_match": 0.0875,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.027,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 5,
+      "CIR": 4
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "xantphos",
+      "palladium acetate",
+      "palladium acetate",
+      "dma",
+      "[b]"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "failed": 2,
+        "CIR": 4,
+        "OPSIN-WebAPI": 4
+      },
+      "smiles_hit_rate": 0.8,
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.027,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.03)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "4",
+    "source_file": "reaction_5.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 4,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.5,
+    "recall": 0.2857,
+    "f1": 0.3636,
+    "null_orig": 0.3,
+    "null_ref": 0.3522727272727273,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.125,
+    "hard_match": 0.0875,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.347,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "CIR": 2,
+      "OPSIN-WebAPI": 6
+    },
+    "tan_labels": [
+      "xantphos",
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium(ii) acetat",
+      "palladium(ii) acetat",
+      "dma",
+      "4-(4-(2,6-dimethylpy"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "CIR": 2,
+        "OPSIN-WebAPI": 5
+      },
+      "smiles_hit_rate": 1.0,
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.347,
+      "atom_map_status": "Warning – atom mismatch (ratio=0.35)",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "5",
+    "source_file": "reaction_6.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 2,
+      "Reagents": 3,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.5,
+    "recall": 0.3333,
+    "f1": 0.4,
+    "null_orig": 0.3,
+    "null_ref": 0.36363636363636365,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 5,
+      "CIR": 2
+    },
+    "tan_labels": [
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "xantphos",
+      "palladium acetate",
+      "palladium acetate",
+      "dma"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "CIR": 2,
+        "failed": 1,
+        "OPSIN-WebAPI": 4
+      },
+      "smiles_hit_rate": 0.8571,
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "6",
+    "source_file": "reaction_7.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 4,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 1
+    },
+    "n_orig": 4,
+    "n_ref": 8,
+    "entity_increase_pct": 100.0,
+    "precision": 0.5,
+    "recall": 0.3333,
+    "f1": 0.4,
+    "null_orig": 0.3,
+    "null_ref": 0.38636363636363635,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.125,
+    "hard_match": 0.0875,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.0,
+    "atom_ok_orig": false,
+    "atom_ok_ref": false,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "CIR": 2,
+      "OPSIN-WebAPI": 5
+    },
+    "tan_labels": [
+      "xantphos",
+      "3-(2-chloropyridin-4",
+      "sulfanilamide",
+      "cesium carbonate",
+      "palladium(ii) acetat",
+      "palladium(ii) acetat",
+      "dma"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "failed": 1,
+        "CIR": 2,
+        "OPSIN-WebAPI": 4
+      },
+      "smiles_hit_rate": 0.8571,
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 0.0,
+      "atom_map_status": "Incomplete – one side missing",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "7",
+    "source_file": "reaction_8.json"
+  },
+  {
+    "orig_counts": {
+      "Reactants": 1,
+      "Reagents": 1,
+      "Catalysts": 1,
+      "Solvents": 0,
+      "Products": 0
+    },
+    "ref_counts": {
+      "Reactants": 3,
+      "Reagents": 2,
+      "Catalysts": 1,
+      "Solvents": 1,
+      "Products": 2
+    },
+    "n_orig": 3,
+    "n_ref": 9,
+    "entity_increase_pct": 200.0,
+    "precision": 0.6667,
+    "recall": 0.5,
+    "f1": 0.5714,
+    "null_orig": 0.2,
+    "null_ref": 0.41414141414141414,
+    "smiles_valid_orig": 1.0,
+    "smiles_valid_ref": 1.0,
+    "soft_match": 0.25,
+    "hard_match": 0.175,
+    "atom_ratio_orig": 0.0,
+    "atom_ratio_ref": 0.941,
+    "atom_ok_orig": false,
+    "atom_ok_ref": true,
+    "molar_cons": 0,
+    "molar_total": 0,
+    "smiles_sources": {
+      "OPSIN-WebAPI": 4,
+      "CIR": 1
+    },
+    "tan_labels": [
+      "3,5-dibromopyridine",
+      "1-(piperazin-1-yl)et",
+      "xantphos",
+      "1-(4-(5-bromopyridin"
+    ],
+    "tan_orig": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tan_ref": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "pipeline_metrics": {
+      "smiles_sources": {
+        "failed": 3,
+        "OPSIN-WebAPI": 3,
+        "CIR": 1
+      },
+      "smiles_hit_rate": 0.5714,
+      "molar_consistency_rate": null,
+      "atom_map_ratio": 1.882,
+      "atom_map_status": "Success",
+      "rxnmapper_confidence": 0.0,
+      "rxnmapper_method": "local_heuristic"
+    },
+    "reaction_id": "8",
+    "source_file": "reaction_9.json"
+  }
+]
