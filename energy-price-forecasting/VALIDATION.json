@@ -1,0 +1,10 @@
+{
+  "project": "energy-price-forecasting",
+  "files": 6,
+  "notebook_code_cells_syntax_checked": 27,
+  "preprocessing_syntax": "passed",
+  "saved_prediction_rows_numeric_checked": 6003,
+  "credential_pattern_findings": 0,
+  "full_training_run": false,
+  "source_notebook_sha256": "d11556877bb71102c40aa87dcfa3a034993a103898ddfafe4a6b654a1b5956bf"
+}

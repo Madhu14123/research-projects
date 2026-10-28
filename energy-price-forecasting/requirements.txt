@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+river
+scikit-learn
+lightgbm
+statsmodels
+joblib
+jupyterlab

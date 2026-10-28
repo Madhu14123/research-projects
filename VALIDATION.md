@@ -8,3 +8,7 @@
 - The final EI AICc/Huber source and MSME three-way benchmark JSON were not located; see project READMEs.
 
 Dependency lists added for chemical reactions and MSME are starting points inferred from imports, not verified lockfiles. Several original scripts require local path configuration and prior-stage outputs.
+
+## Energy project addition
+
+The energy notebook source (27 code cells, excluding its shell-install line) and preprocessing script passed syntax checks. Saved predictions were checked for finite numeric values; no credential patterns were found. Outputs were cleared from the published notebook; historical results are stored separately. No training was rerun. Known evaluation limitations are described in the project README.

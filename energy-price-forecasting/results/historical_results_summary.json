@@ -1,0 +1,32 @@
+{
+  "provenance": "Existing saved notebook outputs and CSVs; no retraining performed.",
+  "evaluation_status": "Historical exploratory results with target leakage and random time-series splitting; not validated out-of-time forecasting performance.",
+  "historical_metric_lines": [
+    "LightGBM Model (After Concept Drift) - RMSE: 4.903912200118438",
+    "LightGBM Model (After Concept Drift) - MAPE: 0.6686528080852857",
+    "LightGBM Model (Without Outlier Removal) - RMSE: 105.85930691303847",
+    "LightGBM Model (Without Outlier Removal) - MAPE: 1.1085119793090803",
+    "LightGBM Model (After Concept Drift) - RMSE: 4.903912200118438",
+    "LightGBM Model (After Concept Drift) - MAPE: 0.6686528080852857",
+    "LightGBM Model (Without Outlier Removal) - RMSE: 105.85930691303847",
+    "LightGBM Model (Without Outlier Removal) - MAPE: 1.1085119793090803",
+    "LightGBM Model (After Concept Drift) - R2 Score: 0.9974617275702329",
+    "LightGBM Model (After Concept Drift) - MAE: 0.9327283790928905",
+    "LightGBM Model (After Concept Drift) - SMAPE: 4.768894068293245",
+    "LightGBM Model (Without Outlier Removal) - R2 Score: 0.5939037878241799",
+    "LightGBM Model (Without Outlier Removal) - MAE: 9.581260474960564",
+    "LightGBM Model (Without Outlier Removal) - SMAPE: 6.334783447697682"
+  ],
+  "saved_prediction_rows": 6003,
+  "saved_artifact_row_counts": {
+    "concept_drift_points (1).csv": 26,
+    "detected_outliers.csv": 3032
+  },
+  "notes": [
+    "SARIMA residuals are calculated from observed target prices before the split and supplied as model inputs.",
+    "train_test_split uses random splitting rather than a chronological holdout.",
+    "Drift-triggered retraining reuses the original training data.",
+    "Filtered and full test-set metrics use different evaluation populations.",
+    "The original 1-MAPE quantity labelled Accuracy is not classification accuracy and is omitted here."
+  ]
+}
