@@ -2,6 +2,12 @@
 
 Six research and programming projects by Madhurya, curated from existing local code and saved results.
 
+## Featured research: Emotional intelligence
+
+[Read the master's thesis (PDF)](emotional-intelligence/thesis/masters-thesis.pdf) · [Browse supporting research code](emotional-intelligence/)
+
+*EI in the Age of AI: A measurement framework for emotional intelligence in Indian competitive exams*, Uppara Madhurya Sri, Blekinge Institute of Technology. See the project guide for thesis-version details and code coverage.
+
 | Folder | Project |
 | --- | --- |
 | [emotional-intelligence](emotional-intelligence/) | Process-based emotional intelligence from facial action units, task stages and self-reports |

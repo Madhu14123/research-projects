@@ -2,6 +2,12 @@
 
 Computational modelling of emotional intelligence during entrance-examination problem solving. The source study uses facial action units, manually coded stages, SAM self-reports and exam outcomes for 42 participants.
 
+## Thesis
+
+[Read the master's thesis (PDF)](thesis/masters-thesis.pdf) — *EI in the Age of AI: A measurement framework for emotional intelligence in Indian competitive exams*, Uppara Madhurya Sri, Blekinge Institute of Technology.
+
+The selected 114-page local version has a May 2026 cover date and a PDF creation date of 13 October 2026. It is the latest complete matching thesis found locally; its identity as the exact submitted copy is not independently confirmed. See [version details](thesis/README.md). The PDF is unchanged.
+
 ## Main source groups
 
 - `src/run_pipeline.py`: modular five-stage loader, feature construction, composite, validation and confirmatory analysis. Additional stage modules provide regression, temporal and multitask experiments; the runner itself runs stages 1-5.
