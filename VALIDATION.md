@@ -12,3 +12,7 @@ Dependency lists added for chemical reactions and MSME are starting points infer
 ## Energy project addition
 
 The energy notebook source (27 code cells, excluding its shell-install line) and preprocessing script passed syntax checks. Saved predictions were checked for finite numeric values; no credential patterns were found. Outputs were cleared from the published notebook; historical results are stored separately. No training was rerun. Known evaluation limitations are described in the project README.
+
+## DSS project addition
+
+Nine Python source files passed syntax checks. Six historical prediction tables were parsed and checked for finite numeric values; RMSE, MAE and R2 were recalculated from all saved predictions. No credential patterns were detected in the selected files. Full training and the live dashboard were not run. See the DSS README for scaling and evaluation-alignment limitations.

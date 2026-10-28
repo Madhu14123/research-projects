@@ -1,0 +1,33 @@
+{
+  "python_files_syntax_checked": 9,
+  "prediction_files_checked": 6,
+  "total_prediction_rows": 78128,
+  "credential_pattern_findings": 0,
+  "full_training_run": false,
+  "saved_result_provenance": [
+    {
+      "file": "predicted_vs_actual_CatBoost.csv",
+      "source_sha256": "b97d0ff049a3878d188605fc0a2540c58c47e69890a2a495807ac566f30764c7"
+    },
+    {
+      "file": "predicted_vs_actual_GRU.csv",
+      "source_sha256": "aafb51fca2f71e43be798a2d25dcee74bd6385bc7a67ec01d418fd5d56e129ab"
+    },
+    {
+      "file": "predicted_vs_actual_LinearRegression.csv",
+      "source_sha256": "a7ad96a184b58d59bbfc474f7cef01172165bcc85254c6c63ef412a108af71de"
+    },
+    {
+      "file": "predicted_vs_actual_LSTM.csv",
+      "source_sha256": "c3e706ff91605daac0f8009cbec859e4a093ebceb47fe1f615bc3b6a6f9c8f0f"
+    },
+    {
+      "file": "predicted_vs_actual_RandomForest.csv",
+      "source_sha256": "48077870aeaefddbdea2eadc098482bff32f52c6e91504e7994c0bde74fd5861"
+    },
+    {
+      "file": "predicted_vs_actual_XGBoost.csv",
+      "source_sha256": "9ab789ef0902a2c643041daa8b1f851ecca8f22e74d4e068be3f5980e001abb7"
+    }
+  ]
+}

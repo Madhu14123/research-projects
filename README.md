@@ -1,6 +1,6 @@
 # Research Projects
 
-Four research projects by Madhurya, curated from existing local code and saved results.
+Five research projects by Madhurya, curated from existing local code and saved results.
 
 | Folder | Project |
 | --- | --- |
@@ -8,6 +8,7 @@ Four research projects by Madhurya, curated from existing local code and saved r
 | [chemical-reactions-agentic-ai](chemical-reactions-agentic-ai/) | Multi-agent chemical reaction refinement with LangGraph, MCP and chemistry validation |
 | [msme-model-comparison](msme-model-comparison/) | MSME preprocessing, model comparisons, knowledge graphs and query models |
 | [energy-price-forecasting](energy-price-forecasting/) | Electricity-price modelling with SARIMA, LightGBM and ADWIN drift exploration |
+| [dss-crypto-forecasting](dss-crypto-forecasting/) | Cryptocurrency forecasting with six models and a Streamlit decision-support dashboard |
 
 Each project includes a guide describing entry points, dependencies, saved evidence and known limitations. Source scripts retain their original filenames and behaviour. This is a curated research archive, not a claim that every experiment is a final validated model.
 

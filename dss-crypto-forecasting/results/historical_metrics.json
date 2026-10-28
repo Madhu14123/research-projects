@@ -1,0 +1,66 @@
+{
+  "provenance": "Metrics recalculated from historical saved predictions; models were not retrained.",
+  "evaluation_status": "Exploratory model results, not an independently validated benchmark.",
+  "models": [
+    {
+      "model": "CatBoost",
+      "rows": 13022,
+      "rmse": 22.904322280503862,
+      "mae": 13.45693440650525,
+      "r2": 0.971138020966309,
+      "first_date": "2023-11-14 00:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    },
+    {
+      "model": "GRU",
+      "rows": 13020,
+      "rmse": 16.241526915637834,
+      "mae": 9.126814763440862,
+      "r2": 0.9854788996969389,
+      "first_date": "2023-11-14 02:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    },
+    {
+      "model": "LinearRegression",
+      "rows": 13022,
+      "rmse": 3.605544028739917,
+      "mae": 2.3065206544004857,
+      "r2": 0.9992847912457877,
+      "first_date": "2023-11-14 00:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    },
+    {
+      "model": "LSTM",
+      "rows": 13020,
+      "rmse": 18.771823780260597,
+      "mae": 9.581118350230415,
+      "r2": 0.9806019198160719,
+      "first_date": "2023-11-14 02:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    },
+    {
+      "model": "RandomForest",
+      "rows": 13022,
+      "rmse": 12.615681655619298,
+      "mae": 5.855262089302063,
+      "r2": 0.991243860782096,
+      "first_date": "2023-11-14 00:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    },
+    {
+      "model": "XGBoost",
+      "rows": 13022,
+      "rmse": 17.926561491277386,
+      "mae": 8.148192030410076,
+      "r2": 0.9823198801207846,
+      "first_date": "2023-11-14 00:00:00",
+      "last_date": "2025-05-09 13:00:00"
+    }
+  ],
+  "limitations": [
+    "Several trainers fit StandardScaler to all observations before the chronological split.",
+    "Sequence and tabular prediction files have different row counts; compare on aligned timestamps before ranking.",
+    "Some saved timestamp labels require review for alignment with the shifted next-hour target.",
+    "The original dashboard contains generic research-gap statements that are not independent evidence of novelty."
+  ]
+}
