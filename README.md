@@ -1,6 +1,6 @@
 # Research Projects
 
-Five research and programming projects by Madhurya, curated from existing local code and saved results.
+Research projects and a review manuscript by Madhurya, curated from existing local code and saved results.
 
 ## Featured research: Emotional intelligence
 
@@ -13,6 +13,7 @@ Five research and programming projects by Madhurya, curated from existing local 
 | [emotional-intelligence](emotional-intelligence/) | Process-based emotional intelligence from facial action units, task stages and self-reports |
 | [chemical-reactions-agentic-ai](chemical-reactions-agentic-ai/) | Multi-agent chemical reaction refinement with LangGraph, MCP and chemistry validation |
 | [msme-model-comparison](msme-model-comparison/) | MSME preprocessing, model comparisons, knowledge graphs and query models |
+| [xr-interaction-review](xr-interaction-review/) | Review manuscript on user interaction in AI enhanced immersive XR environments |
 | [agentic-rag](agentic-rag/) | Research-focused assistant with document retrieval, relevance checking and question rewriting |
 | [majorpro4-text-to-sql](majorpro4-text-to-sql/) | Local-model CSV question answering with reviewable SQL and a Streamlit interface |
 
