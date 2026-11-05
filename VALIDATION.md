@@ -12,3 +12,7 @@ Dependency lists added for chemical reactions and MSME are starting points infer
 ## majorpro4 revision
 
 The revised CSV-to-SQL app passed 16 unit tests and a Streamlit AppTest smoke check covering startup, a demo aggregate, rejected mutation and intact data. Live model inference and a fresh dependency installation were not performed. Original credential-bearing variants, databases and survey records were excluded; synthetic demo data is included.
+
+## Agentic RAG addition
+
+Copied from the separate Agentic_RAG repository. Cleared saved outputs and execution counts, removed cell metadata, and changed one prose-only code cell to Markdown. The remaining 57 code cells passed syntax checks with notebook install commands excluded. Credential-pattern scan found no matches. No live API calls, fresh dependency installation or retrieval-quality benchmark was performed. See the project guide for prototype limitations.
